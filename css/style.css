@@ -1,0 +1,64 @@
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+body {
+	background-color: #333;
+}
+
+.header {
+}
+.page {
+	padding: 20px 75px;
+}
+
+.page__block {
+	padding: 30px 15px;
+	background-color: white;
+	max-width: 600px;
+	min-height: 150px;
+	border-radius: 50%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.page__block:hover {
+	transform: scale(1.2);
+	transition: all 0.2s ease 0s;
+}
+.page__title {
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 40px;
+}
+.page__result {
+	font-size: 22px;
+}
+.footer {
+}
+.page__block1 {
+	padding: 30px 15px;
+	background-color: rgb(34, 208, 80);
+	max-width: 600px;
+	min-height: 150px;
+	border-radius: 50%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.page__block1:hover {
+	transform: scale(1.2);
+	transition: all 0.2s ease 0s;
+}
+.page__block2 {
+	padding: 30px 15px;
+	background-color: rgb(100, 114, 83);
+	max-width: 600px;
+	min-height: 150px;
+	border-radius: 50%;
+	text-align: center;
+}
+.page__block2:hover {
+	transform: scale(1.2);
+	transition: all 0.2s ease 0s;
+}
